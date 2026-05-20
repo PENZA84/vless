@@ -56,8 +56,9 @@ RAW_PROVIDERS = [
     "https://v2rayshare.com/raw",
     "https://gitlab.com/ProxyCollectorLive/v2ray-massive/-/raw/main/raw/sources.txt",
     "https://clashnode.com/raw",
-    "https://freev2ray.cc/raw/all"
+    "https://freev2ray.cc/raw/all",
 ]
+
 
 def fetch_from_providers():
     """Функция, которая берёт сырые ссылки от всех поставщиков и добавляет в общий список"""
@@ -71,15 +72,19 @@ def fetch_from_providers():
                 lines = resp.text.splitlines()
                 for line in lines:
                     line = line.strip()
-                    if line.startswith(('vless://', 'vmess://', 'trojan://', 'ss://')):
+                    if line.startswith(("vless://", "vmess://", "trojan://", "ss://")):
                         all_raw_links.append(line)
                 logging.info(f"✅ Поставщик: {url} — получено ссылок: {len(lines)}")
         except Exception as e:
             logging.warning(f"⚠️ Поставщик {url} не ответил: {str(e)[:60]}...")
     # Убираем дубликаты
     unique_links = list(dict.fromkeys(all_raw_links))
-    logging.info(f"📥 Итого от всех поставщиков: {len(unique_links)} уникальных сырых ссылок")
+    logging.info(
+        f"📥 Итого от всех поставщиков: {len(unique_links)} уникальных сырых ссылок"
+    )
     return unique_links
+
+
 # =====================================================================================
 
 
@@ -102,17 +107,21 @@ edge_directory = os.path.join(main_directory, "edge")
 edge_bestip_path = os.path.join(edge_directory, "Bestip.txt")
 edge_result_path = os.path.join(main_directory, "result.csv")
 main_singbox_path = os.path.join(main_directory, "sing-box.json")
-main_warp_path = os.path.join(main_directory, "warp.json")  # Исправил путь — теперь не будет конфликтов
+main_warp_path = os.path.join(
+    main_directory, "warp.json"
+)  # Исправил путь — теперь не будет конфликтов
 
 
 # Function to generate Hiddify config
 def export_Hiddify(t_ips, extra_links=None):
     config_prefix = f"warp://{t_ips[0]}?ifp=1-3&ifpm=m4#{IR_TAG}&&detour=warp://{t_ips[1]}?ifp=1-2&ifpm=m5#{SW_TAG}"
     formatted_time = datetime.datetime.now().strftime("%A, %d %b %Y, %H:%M")
-    
+
     # Если есть ссылки от поставщиков — добавляем их в конфиг
     if extra_links and len(extra_links) > 0:
-        config_prefix += "\n# === ДОБАВЛЕНО ОТ ПОСТАВЩИКОВ ===\n" + "\n".join(extra_links[:500])  # Берём до 500 шт за раз
+        config_prefix += "\n# === ДОБАВЛЕНО ОТ ПОСТАВЩИКОВ ===\n" + "\n".join(
+            extra_links[:500]
+        )  # Берём до 500 шт за раз
     return config_prefix, formatted_time
 
 
@@ -122,7 +131,15 @@ def toSingBox(tag, clean_ip, detour, addresses):
     try:
         # Обновил ссылку на api.sh, чтобы всегда бралась рабочая версия
         subprocess.run(
-            ["wget", "-N", "--no-check-certificate", "https://gitlab.com/fscarmen/warp/-/raw/main/api.sh"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+            [
+                "wget",
+                "-N",
+                "--no-check-certificate",
+                "https://gitlab.com/fscarmen/warp/-/raw/main/api.sh",
+            ],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
         )
         prc = subprocess.run(
             ["sudo", "bash", "api.sh", "-r"], capture_output=True, text=True, timeout=30
@@ -225,7 +242,9 @@ def main():
         # Hiddify profile details — ОБНОВИЛ ИНФОРМАЦИЮ, УВЕЛИЧИЛ ЛИМИТ ТРАФИКА
         title = (
             "//profile-title: base64:"
-            + base64.b64encode("Freedom to Dream 🤍 | Updated".encode("utf-8")).decode("utf-8")
+            + base64.b64encode("Freedom to Dream 🤍 | Updated".encode("utf-8")).decode(
+                "utf-8"
+            )
             + "\n"
         )
         update_interval = "//profile-update-interval: 3\n"  # Обновление раз в 3 часа
@@ -245,7 +264,9 @@ def main():
             )
 
         export_SingBox(Bestip)
-        logging.info("✅ ВСЁ ГОТОВО! Конфиги обновлены, поставщики подключены, ошибок нет.")
+        logging.info(
+            "✅ ВСЁ ГОТОВО! Конфиги обновлены, поставщики подключены, ошибок нет."
+        )
 
     except subprocess.CalledProcessError as e:
         logging.error(f"Error executing command: {e}")
