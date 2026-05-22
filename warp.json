@@ -2,5 +2,5 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload = 1000000000000; download = 3000000000000; total = 10000000000000; expire = 1900000000
 //profile-web-page-url: https://github.com/PENZA84/vless
-//last update on: Thu, 09:36:10
-warp://8.35.211.15:8443?ifp=1-3&ifpm=m4#⚪️Tehran&&detour=warp://8.47.69.110:3854?ifp=1-2&ifpm=m5#🟢Somewhere
+//last update on: Fri, 08:57:49
+warp://8.39.204.126:2087?ifp=1-3&ifpm=m4#⚪️Tehran&&detour=warp://8.39.204.150:7103?ifp=1-2&ifpm=m5#🟢Somewhere
