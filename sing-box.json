@@ -53,39 +53,22 @@
       "mtu": 1280,
       "peers": [
         {
-<<<<<<< HEAD
-          "address": "188.114.97.215",
-=======
-          "address": "8.35.211.47",
->>>>>>> upstream/main
+          "address": "8.34.70.172",
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
-<<<<<<< HEAD
-          "port": 4177,
+          "port": 943,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            6,
-            118,
-            201
+            122,
+            131,
+            107
           ]
         }
       ],
-      "private_key": "EHn2bYY+Cm5nbX2wwTTf3rYKZFElbV6L9L6oC6ckmVQ=",
-=======
-          "port": 939,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "reserved": [
-            231,
-            169,
-            72
-          ]
-        }
-      ],
-      "private_key": "aEcPb7b3KdGylvhm3aaV2BKEqRfuuc/peFgDzkaodEE=",
->>>>>>> upstream/main
+      "private_key": "mI45mC8IyMsImkD3PwmCHVarp5Byk763oEMDfPIbsU8=",
       "tag": "\u26aa\ufe0fTehran",
       "type": "wireguard",
       "workers": 4
@@ -99,39 +82,22 @@
       "mtu": 1280,
       "peers": [
         {
-<<<<<<< HEAD
-          "address": "8.34.70.51",
-=======
-          "address": "188.114.97.202",
->>>>>>> upstream/main
+          "address": "198.41.254.61",
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
-<<<<<<< HEAD
-          "port": 891,
+          "port": 864,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            249,
-            245,
-            59
+            9,
+            9,
+            19
           ]
         }
       ],
-      "private_key": "qN7XhPHdqA52EJhK8voh6eTPymQP67aZgl8ObvF2Tn4=",
-=======
-          "port": 890,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "reserved": [
-            52,
-            97,
-            85
-          ]
-        }
-      ],
-      "private_key": "aJVWIRfPcw7+xoOZ2ZVJHJyA9jAm38bKp2SVZ4tE8WY=",
->>>>>>> upstream/main
+      "private_key": "+G5AR4wm1nNwcbOKNS63/PmavGl0tYL0OPv6vzZZj3A=",
       "tag": "\ud83d\udfe2Somewhere",
       "type": "wireguard",
       "workers": 4
