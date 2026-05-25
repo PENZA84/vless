@@ -1,13 +1,32 @@
 [
     {
         "colo": "Default",
+<<<<<<< HEAD
         "ip": "172.64.86.71",
         "latency": 182,
+=======
+        "ip": "198.41.208.146",
+        "latency": 54,
+>>>>>>> upstream/main
         "line": "CM",
         "loss": 0,
         "node": "CDCM",
         "speed": 300,
+<<<<<<< HEAD
         "time": "2026-05-24 17:17:15"
+=======
+        "time": "2026-05-24 17:49:26"
+    },
+    {
+        "colo": "Default",
+        "ip": "198.41.209.138",
+        "latency": 54,
+        "line": "CM",
+        "loss": 0,
+        "node": "CDCM",
+        "speed": 300,
+        "time": "2026-05-24 17:49:32"
+>>>>>>> upstream/main
     },
     {
         "colo": "Default",
@@ -21,6 +40,7 @@
     },
     {
         "colo": "Default",
+<<<<<<< HEAD
         "ip": "198.41.208.103",
         "latency": 52,
         "line": "CM",
@@ -31,6 +51,8 @@
     },
     {
         "colo": "Default",
+=======
+>>>>>>> upstream/main
         "ip": "172.67.90.221",
         "latency": 184,
         "line": "CM",
@@ -101,13 +123,32 @@
     },
     {
         "colo": "Default",
+<<<<<<< HEAD
         "ip": "172.64.86.71",
         "latency": 182,
+=======
+        "ip": "198.41.208.146",
+        "latency": 54,
+>>>>>>> upstream/main
         "line": "CU",
         "loss": 0,
         "node": "CDCM",
         "speed": 300,
+<<<<<<< HEAD
         "time": "2026-05-24 17:17:15"
+=======
+        "time": "2026-05-24 17:49:26"
+    },
+    {
+        "colo": "Default",
+        "ip": "198.41.209.138",
+        "latency": 54,
+        "line": "CU",
+        "loss": 0,
+        "node": "CDCM",
+        "speed": 300,
+        "time": "2026-05-24 17:49:32"
+>>>>>>> upstream/main
     },
     {
         "colo": "Default",
@@ -121,6 +162,7 @@
     },
     {
         "colo": "Default",
+<<<<<<< HEAD
         "ip": "198.41.208.103",
         "latency": 52,
         "line": "CU",
@@ -131,6 +173,8 @@
     },
     {
         "colo": "Default",
+=======
+>>>>>>> upstream/main
         "ip": "172.67.90.221",
         "latency": 184,
         "line": "CU",
