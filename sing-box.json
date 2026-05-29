@@ -54,15 +54,20 @@
       "peers": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "address": "8.39.204.20",
 =======
           "address": "188.114.96.44",
+>>>>>>> upstream/main
+=======
+          "address": "8.34.146.223",
 >>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
 <<<<<<< HEAD
           "port": 894,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -76,15 +81,22 @@
       "private_key": "4Dq+vevWwseoLN9+HIDiFwF0mM4BYSuX2I0uajw/0XA=",
 =======
           "port": 1701,
+=======
+          "port": 1010,
+>>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            112,
-            201,
-            94
+            194,
+            76,
+            251
           ]
         }
       ],
+<<<<<<< HEAD
       "private_key": "uHW+bEiK5x+Nc9HMczBSohrfzgYrNCI2wQy6W2ive2A=",
+>>>>>>> upstream/main
+=======
+      "private_key": "QIYLJ8pXF3yCeUFZAgX7n16Cfi9soa7Y2U0X0HOQ5mY=",
 >>>>>>> upstream/main
       "tag": "\u26aa\ufe0fTehran",
       "type": "wireguard",
@@ -100,15 +112,20 @@
       "peers": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "address": "8.34.146.192",
 =======
           "address": "188.114.96.213",
+>>>>>>> upstream/main
+=======
+          "address": "162.159.195.40",
 >>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
 <<<<<<< HEAD
           "port": 1843,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -122,15 +139,22 @@
       "private_key": "mD8aSnFf9rCF0roUg6g7Zjr9WtQQe6aczxf4vnCEXUo=",
 =======
           "port": 987,
+=======
+          "port": 1018,
+>>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            71,
-            71,
-            53
+            214,
+            102,
+            55
           ]
         }
       ],
+<<<<<<< HEAD
       "private_key": "EP4aUmhyB2nPVcl75882LO+k5U87kZiFJyJsOK2n12w=",
+>>>>>>> upstream/main
+=======
+      "private_key": "8CdoEcpoOaTdvxKX5zhxHO5Zm4um8TklwhuZcUu0C2A=",
 >>>>>>> upstream/main
       "tag": "\ud83d\udfe2Somewhere",
       "type": "wireguard",
