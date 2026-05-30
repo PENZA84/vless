@@ -1,5 +1,9 @@
 ## ESET Trial Accounts
+<<<<<<< HEAD
 ### Generated On: Saturday, 30 May 2026, 16:28
+=======
+### Generated On: Saturday, 30 May 2026, 17:26
+>>>>>>> upstream/main
 
 > [!IMPORTANT]
 > **POLICY CHANGE: ESET has discontinued free trial VPN codes.**
@@ -15,8 +19,11 @@ Everything you need to know about ESET. [^1]
 <hr><br/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Generated On: Friday, 29 May 2026, 18:03
 =======
+=======
+>>>>>>> upstream/main
 ### Generated On: Friday, 29 May 2026, 19:29
 >>>>>>> upstream/main
 
@@ -1193,6 +1200,7 @@ Credits [^2]
 =======
 <br/>
 >>>>>>> upstream/main
+<br/>
 <br/>
 <br/>
 <br/>
