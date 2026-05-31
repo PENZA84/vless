@@ -72,6 +72,7 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "104.16.113.199",
             "latency": 145,
             "line": "CT",
@@ -82,6 +83,8 @@
         },
         {
             "colo": "Default",
+=======
+>>>>>>> upstream/main
             "ip": "104.16.127.82",
             "latency": 141,
             "line": "CT",
@@ -92,6 +95,19 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
+=======
+            "ip": "104.16.113.199",
+            "latency": 145,
+            "line": "CT",
+            "loss": 0,
+            "node": "QYZJBGP",
+            "speed": 220,
+            "time": "2026-05-30 15:43:47"
+        },
+        {
+            "colo": "Default",
+>>>>>>> upstream/main
             "ip": "104.16.250.151",
             "latency": 133,
             "line": "CT",
