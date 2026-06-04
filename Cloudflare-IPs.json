@@ -2,6 +2,7 @@
     "ipv4": [
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "198.41.208.108",
             "latency": 56,
             "line": "CM",
@@ -12,6 +13,8 @@
         },
         {
             "colo": "Default",
+=======
+>>>>>>> upstream/main
             "ip": "198.41.209.186",
             "latency": 51,
             "line": "CM",
@@ -22,6 +25,19 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
+=======
+            "ip": "198.41.208.108",
+            "latency": 56,
+            "line": "CM",
+            "loss": 0,
+            "node": "CDCM",
+            "speed": 300,
+            "time": "2026-06-03 09:43:24"
+        },
+        {
+            "colo": "Default",
+>>>>>>> upstream/main
             "ip": "162.159.242.186",
             "latency": 178,
             "line": "CM",
@@ -32,6 +48,7 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "162.159.243.163",
             "latency": 179,
             "line": "CM",
@@ -42,6 +59,8 @@
         },
         {
             "colo": "Default",
+=======
+>>>>>>> upstream/main
             "ip": "198.41.209.106",
             "latency": 59,
             "line": "CM",
@@ -52,6 +71,19 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
+=======
+            "ip": "162.159.243.163",
+            "latency": 179,
+            "line": "CM",
+            "loss": 0,
+            "node": "CDCM",
+            "speed": 260,
+            "time": "2026-06-03 09:43:30"
+        },
+        {
+            "colo": "Default",
+>>>>>>> upstream/main
             "ip": "198.41.223.70",
             "latency": 79,
             "line": "CT",
@@ -102,6 +134,7 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "198.41.208.108",
             "latency": 56,
             "line": "CU",
@@ -112,6 +145,8 @@
         },
         {
             "colo": "Default",
+=======
+>>>>>>> upstream/main
             "ip": "198.41.209.186",
             "latency": 51,
             "line": "CU",
@@ -122,6 +157,19 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
+=======
+            "ip": "198.41.208.108",
+            "latency": 56,
+            "line": "CU",
+            "loss": 0,
+            "node": "CDCM",
+            "speed": 300,
+            "time": "2026-06-03 09:43:24"
+        },
+        {
+            "colo": "Default",
+>>>>>>> upstream/main
             "ip": "162.159.242.186",
             "latency": 178,
             "line": "CU",
@@ -132,6 +180,7 @@
         },
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "162.159.243.163",
             "latency": 179,
             "line": "CU",
@@ -142,6 +191,8 @@
         },
         {
             "colo": "Default",
+=======
+>>>>>>> upstream/main
             "ip": "198.41.209.106",
             "latency": 59,
             "line": "CU",
@@ -149,11 +200,25 @@
             "node": "CDCM",
             "speed": 260,
             "time": "2026-06-03 10:04:17"
+<<<<<<< HEAD
+=======
+        },
+        {
+            "colo": "Default",
+            "ip": "162.159.243.163",
+            "latency": 179,
+            "line": "CU",
+            "loss": 0,
+            "node": "CDCM",
+            "speed": 260,
+            "time": "2026-06-03 09:43:30"
+>>>>>>> upstream/main
         }
     ],
     "ipv6": [
         {
             "colo": "Default",
+<<<<<<< HEAD
             "ip": "2606:4700:9760:2f6a:c6e9:6a80:d6aa:cc69",
             "latency": 3,
             "line": "CM",
@@ -185,20 +250,33 @@
         {
             "colo": "Default",
             "ip": "2606:4700:3036:f8db:4a16:61a2:36bd:1744",
+=======
+            "ip": "2606:4700:90cb:9dcb:c097:29e9:e3aa:72fb",
+>>>>>>> upstream/main
             "latency": 4,
             "line": "CM",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 367,
             "time": "2026-06-03 17:19:17"
         },
         {
             "colo": "Default",
             "ip": "2606:4700:8ca6:dc30:b43d:12d1:fde8:ce12",
+=======
+            "speed": 629,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:604f:4a80:f0d2:72c4:abd7",
+>>>>>>> upstream/main
             "latency": 3,
             "line": "CM",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 318,
             "time": "2026-06-03 17:19:17"
         },
@@ -235,20 +313,68 @@
         {
             "colo": "Default",
             "ip": "2606:4700:3036:f8db:4a16:61a2:36bd:1744",
+=======
+            "speed": 614,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:3033:f8e0:3191:ae65:6445:2797",
+            "latency": 3,
+            "line": "CM",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 595,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:9c6f:ae8a:9e74:57f6:a27",
+            "latency": 3,
+            "line": "CM",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 330,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:90cb:9650:f885:1ec7:b669:ca77",
+            "latency": 3,
+            "line": "CM",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 309,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:90cb:9dcb:c097:29e9:e3aa:72fb",
+>>>>>>> upstream/main
             "latency": 4,
             "line": "CT",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 367,
             "time": "2026-06-03 17:19:17"
         },
         {
             "colo": "Default",
             "ip": "2606:4700:8ca6:dc30:b43d:12d1:fde8:ce12",
+=======
+            "speed": 629,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:604f:4a80:f0d2:72c4:abd7",
+>>>>>>> upstream/main
             "latency": 3,
             "line": "CT",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 318,
             "time": "2026-06-03 17:19:17"
         },
@@ -285,22 +411,104 @@
         {
             "colo": "Default",
             "ip": "2606:4700:3036:f8db:4a16:61a2:36bd:1744",
+=======
+            "speed": 614,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:3033:f8e0:3191:ae65:6445:2797",
+            "latency": 3,
+            "line": "CT",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 595,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:9c6f:ae8a:9e74:57f6:a27",
+            "latency": 3,
+            "line": "CT",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 330,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:90cb:9650:f885:1ec7:b669:ca77",
+            "latency": 3,
+            "line": "CT",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 309,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:90cb:9dcb:c097:29e9:e3aa:72fb",
+>>>>>>> upstream/main
             "latency": 4,
             "line": "CU",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 367,
             "time": "2026-06-03 17:19:17"
         },
         {
             "colo": "Default",
             "ip": "2606:4700:8ca6:dc30:b43d:12d1:fde8:ce12",
+=======
+            "speed": 629,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:604f:4a80:f0d2:72c4:abd7",
+>>>>>>> upstream/main
             "latency": 3,
             "line": "CU",
             "loss": 0,
             "node": "NETCUP",
+<<<<<<< HEAD
             "speed": 318,
             "time": "2026-06-03 17:19:17"
+=======
+            "speed": 614,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:3033:f8e0:3191:ae65:6445:2797",
+            "latency": 3,
+            "line": "CU",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 595,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:83bc:9c6f:ae8a:9e74:57f6:a27",
+            "latency": 3,
+            "line": "CU",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 330,
+            "time": "2026-06-03 17:39:17"
+        },
+        {
+            "colo": "Default",
+            "ip": "2606:4700:90cb:9650:f885:1ec7:b669:ca77",
+            "latency": 3,
+            "line": "CU",
+            "loss": 0,
+            "node": "NETCUP",
+            "speed": 309,
+            "time": "2026-06-03 17:39:17"
+>>>>>>> upstream/main
         }
     ]
 }
