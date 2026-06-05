@@ -55,6 +55,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "address": "162.159.192.197",
 =======
           "address": "8.39.204.47",
@@ -62,11 +63,15 @@
 =======
           "address": "8.6.112.76",
 >>>>>>> upstream/main
+=======
+          "address": "8.6.112.5",
+>>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           "port": 7156,
@@ -84,20 +89,27 @@
 =======
           "port": 4500,
 >>>>>>> upstream/main
+=======
+          "port": 500,
+>>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            111,
-            254,
-            133
+            15,
+            163,
+            251
           ]
         }
       ],
+<<<<<<< HEAD
 <<<<<<< HEAD
       "private_key": "6ED6o/mxu0M09sgOCEzGEsTXekGs+/JGvF32eUF9b1I=",
 >>>>>>> upstream/main
       "tag": "\u26aa\ufe0fTehran",
 =======
       "private_key": "INIFI2D8r4mSL7+RZm4FjKvBzrGaIE5mbqInYkmobHc=",
+=======
+      "private_key": "6A2w+ZeyFMhBnCohvDOBTW+400ece+pItv7+7IpCwEI=",
+>>>>>>> upstream/main
       "tag": "\u26aa\ufe0fIran",
 >>>>>>> upstream/main
       "type": "wireguard",
@@ -114,6 +126,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "address": "8.34.70.66",
 =======
           "address": "188.114.98.127",
@@ -121,11 +134,15 @@
 =======
           "address": "8.6.112.49",
 >>>>>>> upstream/main
+=======
+          "address": "188.114.97.204",
+>>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
             "::/0"
           ],
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           "port": 2053,
@@ -143,20 +160,27 @@
 =======
           "port": 2506,
 >>>>>>> upstream/main
+=======
+          "port": 3138,
+>>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            132,
-            179,
-            128
+            193,
+            248,
+            42
           ]
         }
       ],
+<<<<<<< HEAD
 <<<<<<< HEAD
       "private_key": "gDhASzwQ/djLst8XCSXyXTAwegzTyH13s0DFUhRA0lw=",
 >>>>>>> upstream/main
       "tag": "\ud83d\udfe2Somewhere",
 =======
       "private_key": "2K4ibrXJRf9B8Gmts2omz/rqP8dJAiu+Ghvw7qfqZ2I=",
+=======
+      "private_key": "YNh2pF0B/sTor/ME4QBTd4uwctRg2M37lUTqtRHZv0Y=",
+>>>>>>> upstream/main
       "tag": "\ud83d\udfe2Any",
 >>>>>>> upstream/main
       "type": "wireguard",
