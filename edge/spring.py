@@ -12,16 +12,16 @@ import requests
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-# Constants
 IRAN_SYMBOL = "⚪️"
 FOREIGN_SYMBOL = "🟢"
 
-IR_TAG = f"{IRAN_SYMBOL}Tehran"
-SW_TAG = f"{FOREIGN_SYMBOL}Somewhere"
+IR_TAG = f"{IRAN_SYMBOL}Iran"
+SW_TAG = f"{FOREIGN_SYMBOL}Any"
 
 # IPv4 prefixes associated with the CloudFlare WARP service — ОБНОВИЛ СПИСОК, ДОБАВИЛ НОВЫЕ ПОДСЕТИ
 warp_cidr = [
     "8.6.112.0/24",
+<<<<<<< HEAD
     "8.34.70.0/24",
     "8.34.146.0/24",
     "8.35.211.0/24",
@@ -38,6 +38,20 @@ warp_cidr = [
     "188.114.98.0/24",
     "188.114.99.0/24",
     "198.41.128.0/17",
+=======
+#   "8.34.70.0/24",
+#   "8.34.146.0/24",
+#   "8.35.211.0/24",
+#   "8.39.125.0/24",
+#   "8.39.204.0/24",
+#   "8.47.69.0/24",
+#   "162.159.192.0/24",
+#   "162.159.195.0/24",
+#   "188.114.96.0/24",
+    "188.114.97.0/24",
+#   "188.114.98.0/24",
+#   "188.114.99.0/24",
+>>>>>>> upstream/main
 ]
 
 # Available ports for endpoint generation — РАСШИРИЛ СПИСОК ПОРТОВ
@@ -92,7 +106,6 @@ def fetch_from_providers():
 def generate_warp_endpoint():
     cidr = random.choice(warp_cidr)
     network = ipaddress.IPv4Network(cidr)
-    # To avoid network and broadcast addresses, we select from the usable host range.
     ip = network.network_address + random.randint(1, network.num_addresses - 2)
     port = random.choice(available_ports)
     endpoint = f"{ip}:{port}"
@@ -113,8 +126,16 @@ main_warp_path = os.path.join(
 
 
 # Function to generate Hiddify config
+<<<<<<< HEAD
 def export_Hiddify(t_ips, extra_links=None):
     config_prefix = f"warp://{t_ips[0]}?ifp=1-3&ifpm=m4#{IR_TAG}&&detour=warp://{t_ips[1]}?ifp=1-2&ifpm=m5#{SW_TAG}"
+=======
+def export_Hiddify(t_ips):
+    config_prefix = (
+        f"warp://A1@{t_ips[0]}#{IR_TAG} -> "
+        f"warp://A2@{t_ips[1]}?ifp=1-2&ifpm=m5#{SW_TAG}"
+    )
+>>>>>>> upstream/main
     formatted_time = datetime.datetime.now().strftime("%A, %d %b %Y, %H:%M")
 
     # Если есть ссылки от поставщиков — добавляем их в конфиг
@@ -123,7 +144,7 @@ def export_Hiddify(t_ips, extra_links=None):
             extra_links[:500]
         )  # Берём до 500 шт за раз
     return config_prefix, formatted_time
-
+    
 
 # Function to generate Sing-box config
 def toSingBox(tag, clean_ip, detour, addresses):
@@ -189,11 +210,11 @@ def toSingBox(tag, clean_ip, detour, addresses):
 def export_SingBox(t_ips):
     addresses_1 = [
         "172.16.0.2/32",
-        "2606:4700:110:8836:f1c9:4393:9b37:3814/128",
+        "2606:4700:110:8155:fbc6:79c2:a4da:d1e7/128",
     ]
     addresses_2 = [
         "172.16.0.3/32",
-        "2606:4700:110:8867:3f4a:906:1933:43c5/128",
+        "2606:4700:110:881f:999d:2604:1c73:e2d2/128",
     ]
 
     template_path = os.path.join(edge_directory, "assets", "singbox-template.json")
