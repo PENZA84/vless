@@ -1,5 +1,9 @@
 ## ESET Trial Accounts
+<<<<<<< HEAD
 ### Generated On: Tuesday, 09 June 2026, 17:45
+=======
+### Generated On: Tuesday, 09 June 2026, 18:49
+>>>>>>> upstream/main
 
 > [!IMPORTANT]
 > **POLICY CHANGE: ESET has discontinued free trial VPN codes.**
@@ -15,8 +19,13 @@
 **ESET ACCOUNT Credentials**
 
 ```yml
+<<<<<<< HEAD
 Email: jaquinton.miro@forliion.com
 Password: *+AX*gr@ES4!H1gf
+=======
+Email: sahel.oaklan@forliion.com
+Password: }&&Q'l?&s$r4
+>>>>>>> upstream/main
 ```
 <br/>
 
@@ -24,8 +33,11 @@ Everything you need to know about ESET. [^1]
 <hr><br/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Generated On: Monday, 08 June 2026, 18:52
 =======
+=======
+>>>>>>> upstream/main
 ### Generated On: Monday, 08 June 2026, 19:38
 
 > [!IMPORTANT]
@@ -1643,6 +1655,7 @@ Credits [^2]
 =======
 <br/>
 >>>>>>> upstream/main
+<br/>
 <br/>
 <br/>
 <br/>
