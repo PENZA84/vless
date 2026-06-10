@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "address": "162.159.192.197",
 =======
           "address": "8.39.204.47",
@@ -87,6 +88,9 @@
 >>>>>>> upstream/main
 =======
           "address": "8.6.112.36",
+>>>>>>> upstream/main
+=======
+          "address": "8.6.112.18",
 >>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
@@ -140,16 +144,21 @@
 >>>>>>> upstream/main
 =======
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
           "port": 7156,
+>>>>>>> upstream/main
+=======
+          "port": 4198,
 >>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            71,
-            24,
-            17
+            72,
+            180,
+            93
           ]
         }
       ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +189,9 @@
 =======
       "private_key": "KKTzJE3JQ0ZSbiX2DJM0mLUl02bwYm3DvI3xh3+aMnY=",
 >>>>>>> upstream/main
+=======
+      "private_key": "OKATSuDku7/LZnho5f4xSju8oaIPcRsQvOj9KGfDuEA=",
+>>>>>>> upstream/main
       "tag": "\u26aa\ufe0fIran",
 >>>>>>> upstream/main
       "type": "wireguard",
@@ -194,6 +206,7 @@
       "mtu": 1280,
       "peers": [
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +241,9 @@
 >>>>>>> upstream/main
 =======
           "address": "188.114.97.249",
+>>>>>>> upstream/main
+=======
+          "address": "8.6.112.111",
 >>>>>>> upstream/main
           "allowed_ips": [
             "0.0.0.0/0",
@@ -281,16 +297,21 @@
 >>>>>>> upstream/main
 =======
           "persistent_keepalive_interval": 30,
+<<<<<<< HEAD
           "port": 1002,
+>>>>>>> upstream/main
+=======
+          "port": 1701,
 >>>>>>> upstream/main
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "reserved": [
-            48,
-            220,
-            162
+            41,
+            64,
+            52
           ]
         }
       ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +341,9 @@
 >>>>>>> upstream/main
 =======
       "private_key": "wI53mxKvhYH3TmgIHIoJiFnMGplxd/dAd1bgSnUaOnk=",
+>>>>>>> upstream/main
+=======
+      "private_key": "SA0eR705dMmGcH96kRS71uot6RYWVwoFB+wWwv82WXE=",
 >>>>>>> upstream/main
       "tag": "\ud83d\udfe2Any",
 >>>>>>> upstream/main
